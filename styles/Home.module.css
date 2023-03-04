@@ -17,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    filter: brightness(150%);
 }
 
 .heading{
