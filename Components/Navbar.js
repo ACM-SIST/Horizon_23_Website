@@ -42,9 +42,9 @@ export default function Navbar(){
                 }
             </div>
             <div className={styles.nav_right}>
-                <Image className={styles.acm_logo} src={acm_logo} width='60' height='60' alt='ACM SIST LOGO'/>
+                <Image className={styles.acm_logo} src={acm_logo} width='80' height='70' alt='ACM SIST LOGO'/>
                 <div className={styles.sep}></div>
-                <Image className={styles.acm_logo} src={acmw_logo} width='70' height='70' alt='ACM SIST LOGO'/>
+                <Image className={styles.acm_logo} src={acmw_logo} width='100' height='70' alt='ACM SIST LOGO'/>
             </div>
         </div>
     )

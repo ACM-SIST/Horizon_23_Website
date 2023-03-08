@@ -263,7 +263,7 @@
 
 .schedule_container{
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 5rem;
 }
 
@@ -339,12 +339,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 40%;
 }
 
 .event_info p{
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
+}
+
+.ques{
+    color: blueviolet;
 }
 
 .event_card button{
@@ -381,9 +385,7 @@
     }
     .event_info{
         padding: 0;
-    }
-    .event_info p{
-        word-wrap: break-word;
+        padding-bottom: 1rem;
     }
 }
 

@@ -239,67 +239,91 @@ let nontech=[{
           >
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>Codefest</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Codefest</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>10:00 - 11:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
               <div className={styles.event_info}>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Just A Minute</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
                 <p>10:00 - 11:30</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Brain Busters</p>
-                <p>Team</p>
               </div>
               <div className={styles.event_info}>
-                <p>12:00 - 1:30</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Blind Presentation</p>
-                <p>Team</p>
-              </div>
-              <div className={styles.event_info}>
-                <p>1:30 - 3:00</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Innovat-O-thon</p>
-                <p>Team</p>
-              </div>
-              <div className={styles.event_info}>
-                <p>10:00 - 11:30</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>CSS Battle</p>
+                <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>12:00 - 1:30</p>
-                <p>Venue</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Brain Busters</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>12:00 - 13:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
               </div>
               <button className={styles.event_btn}>REGISTER</button>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>U-eye the design</p>
-                <p>Team</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Keep it Reel</p>
               </div>
               <div className={styles.event_info}>
-                <p>1:30 - 3:00</p>
-                <p>Venue</p>
+                <p className={styles.ques}>Timing :</p>
+                <p>12:00 - 13:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Individual</p>
+              </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>BlindPresentation</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>13:30 - 15:00</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Individual</p>
+              </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Sight on Site</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>13:30 - 15:00</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
               </div>
               <button className={styles.event_btn}>REGISTER</button>
             </div>
@@ -307,67 +331,91 @@ let nontech=[{
           <div className={toggle === 2 ? styles.active : styles.passive}>
           <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>Just a Minute - JAM</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Innovat-0-thon</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>10:00 - 11:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
+              </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Murder Mystery</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>10:00 - 11:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
+              </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>CSS BATTLE</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>12:00 - 13:30</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <div className={styles.event_info}>
-                <p>10:00 - 11:30</p>
-                <p>Venue</p>
-              </div>
               <button className={styles.event_btn}>REGISTER</button>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>Keep It Reel</p>
-                <p>Team</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Adzap</p>
               </div>
               <div className={styles.event_info}>
-                <p>12:00- 1:30</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Sight on Site</p>
-                <p>Team</p>
+                <p className={styles.ques}>Timing :</p>
+                <p>12:00 - 13:30</p>
               </div>
               <div className={styles.event_info}>
-                <p>1:30 - 3:00</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Murder Mystery</p>
-                <p>Team</p>
-              </div>
-              <div className={styles.event_info}>
-                <p>10:00 - 11:30</p>
-                <p>Venue</p>
-              </div>
-              <button className={styles.event_btn}>REGISTER</button>
-            </div>
-            <div className={styles.event_card}>
-              <div className={styles.event_info}>
-                <p>Adzap</p>
+                <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
+              <button className={styles.event_btn}>REGISTER</button>
+            </div>
+            <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>12:00 - 1:30</p>
-                <p>Venue</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>U-eye the Design</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Timing :</p>
+                <p>13:30 - 15:00</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
               </div>
               <button className={styles.event_btn}>REGISTER</button>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p>Laugh Out</p>
-                <p>Team</p>
+                <p className={styles.ques}>Name :</p>
+                <p className={styles.event_content}>Laugh Out</p>
               </div>
               <div className={styles.event_info}>
-                <p>1:30 - 3:00</p>
-                <p>Venue</p>
+                <p className={styles.ques}>Timing :</p>
+                <p>13:30 - 15:00</p>
+              </div>
+              <div className={styles.event_info}>
+                <p className={styles.ques}>Type :</p>
+                <p>Team</p>
               </div>
               <button className={styles.event_btn}>REGISTER</button>
             </div>

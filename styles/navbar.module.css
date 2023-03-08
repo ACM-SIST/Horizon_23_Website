@@ -73,6 +73,7 @@
     .ham_container{
         display: block;
         z-index: 99;
+        padding: .5rem;
     }
 }
 
