@@ -31,13 +31,13 @@ export default function Navbar(){
                {(toggleMenu) ? (<div className={styles.links_container}>
                     <Link className={styles.nav_links} href="/" alt="home"><p>HOME</p></Link>
                     <Link className={styles.nav_links} href="/" alt="home"><p>EVENTS</p></Link>
-                    <Link className={styles.nav_links} href="/" alt="home"><p>ABOUT US</p></Link>
+                    <Link className={styles.nav_links} href="/about" alt="home"><p>ABOUT US</p></Link>
                 </div>)
                 :
                 (<div className={styles.links_container_passive}>
                     <Link className={styles.nav_links} href="/" alt="home">HOME</Link>
                     <Link className={styles.nav_links} href="/" alt="home">EVENTS</Link>
-                    <Link className={styles.nav_links} href="/" alt="home">ABOUT US</Link>
+                    <Link className={styles.nav_links} href="/about" alt="about">ABOUT US</Link>
                 </div>)
                 }
             </div>
