@@ -472,7 +472,7 @@ let nontech=[{
           <Image className={styles.footer_img} src={acmw_logo} alt="acmw logo"/>
         </div>
         <div className={styles.sep}></div>
-        <p>Copyright ©2023 Association for Computer Machinery (ACM) SIST All rights reserved</p>
+        <p>Copyright ©2023 Association for Computing Machinery (ACM) SIST All rights reserved</p>
       </div>
     </>
   )
