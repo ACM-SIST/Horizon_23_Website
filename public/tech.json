@@ -1,0 +1,61 @@
+{
+    "tech-event1" : {
+        "heading": "Codefest",
+        "description": "It is an individual event which involves the participants in trying to code/program according to the given specifications. The participant must be able to solve the problems in a given set of time.This competition will test a participant’s coding and debugging skills and their knowledge in programming languages.",
+        "type":"Individual",
+        "date":"24/03/2023",
+        "time":"10:00 AM - 11:30 AM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "tech-event2" : {
+        "heading": "Brain Busters",
+        "description": "An  another Technical event which is about Technical Quiz on Core Topics where you can test your Knowledge on core concepts.",
+        "type":"Team",
+        "date":"24/03/2023",
+        "time":"12:00 PM - 1:30 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "tech-event3" : {
+        "heading": "Blind Presentation",
+        "description": "An opportunity to showcase your skill of Presentation.  Present your presentation in the most creative way you can ! This competition will test a participant’s mindset and presentation skills and their knowledge in given areas.",
+        "type":"Team",
+        "date":"24/03/2023",
+        "time":"1:30 PM - 3:00 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "tech-event4" : {
+        "heading": "Innovat-O-thon",
+        "description": "Product Innovation meets a hackathon. Participants should develop innovative products (Software, Hardware, Both) which can be used to generate revenue and serve any business in any sector.",
+        "type":"Team",
+        "date":"25/03/2023",
+        "time":"10:00 AM - 11:30 AM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "tech-event5" : {
+        "heading": "CSS Battle",
+        "description": "Given an image , individuals have to recreate the image using custom HTML/CSS rules.",
+        "type":"Individual",
+        "date":"25/03/2023",
+        "time":"12:00 PM - 1:30 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "tech-event6" : {
+        "heading": "U-eye the design",
+        "description": "A design challenge where students need to design the UI for a given problem statement.",
+        "type":"Team",
+        "date":"25/03/2023",
+        "time":"1:30 PM - 3:00 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    }
+}

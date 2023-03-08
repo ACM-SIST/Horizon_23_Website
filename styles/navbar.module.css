@@ -17,7 +17,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    width: 55%;
 }
 
 .ham_container{
@@ -55,7 +55,7 @@
 
 @media screen and (max-width:720px){
     .links_container{
-        background-color: rgb(48, 48, 247);
+        background-color: #111343;
         position: absolute;
         width: 100%;
         flex-direction: column;

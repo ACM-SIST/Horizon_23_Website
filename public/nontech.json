@@ -1,0 +1,67 @@
+{
+
+    "nt-event1" : {
+        "heading": "Just a Minute - JAM",
+        "description": "It’s an Individual event where the participant can showcase their talent within a minute. ",
+        "type":"Individual",
+        "date":"24/03/2023",
+        "time":"10:00 AM - 11:30 AM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "nt-event2" : {
+        "heading": "Keep It Reel",
+        "description": "Participants are requested to create a reel centered on the Theme 'College'. Only the SIST campus must be used to film the video. Keep it relevant, appropriate, and unique. It will be judged based on creativity, usage of location and relevance to the topic.",
+        "type":"Team",
+        "date":"24/03/2023",
+        "time":"12:00 PM - 1:30 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "nt-event3" : {
+        "heading": "Sight on Site",
+        "description": "Here  sight on site weighs on the saying When it comes to recall, it’s very much a case of ‘use it, don’t lose it’.
+sight on site in a memory quiz game, it’s played in teams , there would be slides in each round which consist of photos and videos, after each round questions would be asked and the result depends on the number of questions u answered correct. In the end of the game winners would be getting some exiting goodies. Play your way as you unravel the secrets in the slides.",
+        "type":"Team",
+        "date":"24/03/2023",
+        "time":"1:30 PM - 3:00 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "nt-event4" : {
+        "heading": "Murder Mystery",
+        "description": "It’s a game event where the clues will be given and the teams have to solve the clues and keep moving to the next level. The first team to solve all the clue’s will be the final winner",
+        "type":"Team",
+        "date":"25/03/2023",
+        "time":"10:00 AM - 11:30 AM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "nt-event5" : {
+        "heading": "Adzap",
+        "description": "It’s a Competition where students had to prepare different creative advertisements for their given topics on Spot.
+The teams were given their topic 30 minutes in advance .",
+        "type":"Individual",
+        "date":"25/03/2023",
+        "time":"12:00 PM - 1:30 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+    "nt-event6" : {
+        "heading": "Laugh Out",
+        "description": "In this event we have to make everyone laugh with the sarcasm inside ourselves. It’s all about the laugh we make on everyone's face and make them happy.
+Our jokes should be the stress killer for everyone sitting down there.
+The way they will make audience happy will decide the winner.",
+        "type":"Team",
+        "date":"25/03/2023",
+        "time":"1:30 PM - 3:00 PM",
+        "venue":"dummylocation",
+        "image":"xyz"
+    },
+
+}
