@@ -1,6 +1,12 @@
 import Image from 'next/image'
+import { useForm } from '@formspree/react';
 import Navbar from '../Components/Navbar'
 import horizon from "../public/horizon_logo.png"
+import linkedin from "../public/linkedin.png"
+import insta from "../public/insta.png"
+import footer_sist from "../public/footer_sist.png"
+import acm_logo from "../public/acm_logo.png"
+import acmw_logo from "../public/acmw_logo.png"
 import desc_img from "../public/desc_img.jpg"
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
@@ -139,6 +145,8 @@ let nontech=[{
   const [timerminutes,settimerminutes] = useState(0);
   const [timerseconds,settimerseconds] = useState(0);
 
+  const [state, handleSubmit] = useForm("mzbqvpjb");
+
   const toggledate = (id) => {
     setToggle(id);
   }
@@ -168,6 +176,13 @@ let nontech=[{
   useEffect(()=>{
     start()
   })
+
+  function Submit(){
+    if(state.succeeded){
+      window.location.reload()
+    }
+  }
+
   return (
     <>
       <Navbar />
@@ -199,7 +214,7 @@ let nontech=[{
         <div className={styles.count_right}>
           <div className={styles.count_box}>
             <h1>{timerdays}</h1>
-            <h1>Day</h1>
+            <h1>Days</h1>
           </div>
           <div className={styles.count_box}>
             <h1>{timerhours}</h1>
@@ -225,13 +240,13 @@ let nontech=[{
               toggledate(1)
             }}
             >
-              24th Mar
+              23rd Mar
             </p>
             <p
             className={toggle === 2 ? styles.selected : ''}
             onClick={()=>toggledate(2)}
             >
-              25th Mar
+              24th Mar
             </p>
           </div>
           <div
@@ -239,11 +254,11 @@ let nontech=[{
           >
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Codefest</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>10:00 - 11:30</p>
               </div>
               <div className={styles.event_info}>
@@ -254,11 +269,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Just A Minute</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>10:00 - 11:30</p>
               </div>
               <div className={styles.event_info}>
@@ -269,11 +284,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Brain Busters</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>12:00 - 13:30</p>
               </div>
               <div className={styles.event_info}>
@@ -284,11 +299,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Keep it Reel</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>12:00 - 13:30</p>
               </div>
               <div className={styles.event_info}>
@@ -299,11 +314,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>BlindPresentation</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>13:30 - 15:00</p>
               </div>
               <div className={styles.event_info}>
@@ -314,11 +329,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Sight on Site</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>13:30 - 15:00</p>
               </div>
               <div className={styles.event_info}>
@@ -331,11 +346,11 @@ let nontech=[{
           <div className={toggle === 2 ? styles.active : styles.passive}>
           <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Innovat-0-thon</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>10:00 - 11:30</p>
               </div>
               <div className={styles.event_info}>
@@ -346,11 +361,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Murder Mystery</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>10:00 - 11:30</p>
               </div>
               <div className={styles.event_info}>
@@ -361,11 +376,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>CSS BATTLE</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>12:00 - 13:30</p>
               </div>
               <div className={styles.event_info}>
@@ -376,11 +391,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Adzap</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>12:00 - 13:30</p>
               </div>
               <div className={styles.event_info}>
@@ -391,11 +406,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>U-eye the Design</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>13:30 - 15:00</p>
               </div>
               <div className={styles.event_info}>
@@ -406,11 +421,11 @@ let nontech=[{
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Name :</p>
+                <p className={styles.ques}>Event :</p>
                 <p className={styles.event_content}>Laugh Out</p>
               </div>
               <div className={styles.event_info}>
-                <p className={styles.ques}>Timing :</p>
+                <p className={styles.ques}>Time :</p>
                 <p>13:30 - 15:00</p>
               </div>
               <div className={styles.event_info}>
@@ -427,40 +442,37 @@ let nontech=[{
         <h1 className={styles.footer_contact_heading}>CONTACT US</h1>
         <div className={styles.footer_container}>
           <div className={styles.footer_left}>
-            <p>Address:</p>
-            <h3>184 Main Collins Street</h3>
-            <p>Phone:</p>
+            <p className={styles.ques}>Links : </p>
+            <div className={styles.icons_container}><a href='https://www.linkedin.com/company/acm-sist-student-chapter/'><Image src={linkedin} alt="linkedin" width={30} height={30}/></a>
+            <a href='https://www.instagram.com/acmsist/?igshid=YmMyMTA2M2Y%3D'><Image src={insta} alt="insta" width={30} height={30}/></a>
+            </div>
+            <p className={styles.ques}>Phone :</p>
             <h3>(226) 446 9371</h3>
-            <p>Email:</p>
+            <p className={styles.ques}>Email :</p>
             <h3>confer@gmail.com</h3>
-            <p>Website:</p>
-            <h3>www.confer.com</h3>
           </div>
           <div className={styles.footer_right}>
-            <div className={styles.footer_grid_container}>
-              <div>
-                <input placeholder='First Name'/>
-              </div>
-              <div>
-              <input placeholder='Last Name'/>
-              </div>
-              <div>
-              <input placeholder='Email'/>
-              </div>
-              <div>
-              <input placeholder='Phone Number'/>
-              </div>
-              <div>
-              <textarea placeholder='YOUR MESSAGE' className={styles.footer_text}></textarea>
-              </div>
-            </div>
-            <button className={styles.submit}>SUBMIT</button>
+            <form autoComplete='off' onSubmit={handleSubmit} className={styles.footer_grid_container}>
+              <input type="text
+              " name="first name" id='first_name' placeholder='First Name'/>
+              <input type="text" id="last_name" name="last name" placeholder='Last Name'/>
+              <input type="text" 
+        name="email" id='email' placeholder='Email'/>
+              <input type="text" id='phone' name='phone no' placeholder='Phone Number'/>
+              <textarea id='msg' placeholder='YOUR MESSAGE' name='message' className={styles.footer_text}></textarea>
+              <button onClick={Submit} type="submit" className={styles.submit}>SUBMIT</button>
+            </form>
           </div>
         </div>
       </div>
       <div className={styles.copyright_container}>
+        <div className={styles.footer_img_container}>
+          <Image className={styles.footer_img} width={100} height={80} src={footer_sist} alt="sist_logo"/>
+          <Image className={styles.footer_img} src={acm_logo} alt="acm logo"/>
+          <Image className={styles.footer_img} src={acmw_logo} alt="acmw logo"/>
+        </div>
         <div className={styles.sep}></div>
-        <p>Copyright ©2023 All rights reserved</p>
+        <p>Copyright ©2023 Association for Computer Machinery (ACM) SIST All rights reserved</p>
       </div>
     </>
   )

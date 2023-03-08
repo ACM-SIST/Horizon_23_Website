@@ -12,33 +12,10 @@ function About() {
     Aos.init({duration: 1800});
   })
   return (
-    <>
+    <div className={styles.container}>
      <Navbar />
     <div className={styles.abouttotal}>
     <div >
-    <section id="Header" className="d-flex align-items-center">
-        <div className="container-fluid">
-        <div className="row">
-            <div className="col-10 mx-5">
-            <div className="row">
-                <div className="col-md-6 pb-2 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" data-aos="fade-right">
-                <h1>
-                    OUR GOAL 
-                </h1>
-                <h5 style={{ inlineHeight: "0.5",color:"#fff" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-                </h5>
-                </div>
-                <div id='img-abt' className="col-lg-6 order1 order-lg-2 header-img pt-4 py-5">
-                <Image src={Abhi} alt="" className="img-fluid animated"  style={{borderRadius:24}} data-aos="fade-left" />
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </section>
-        </div>
-        <div className={styles.midabout}>
         <section id="Header" className="d-flex align-items-center">
         <div className="container-fluid">
         <div className="row">
@@ -46,14 +23,38 @@ function About() {
             <div className="row">
                 <div className="col-md-6 pb-2 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" data-aos="fade-right">
                 <h1>
-                    OUR GOAL 
+                    OUR VISON 
+                </h1>
+                <h5 style={{ inlineHeight: "0.5",color:"#fff" }}>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                </h5>
+                </div>
+                <div id='img-abt' className="col-lg-6 order1 order-lg-2 header-img pt-4 py-5">
+                <Image src={Abhi} alt="" className="img-fluid animated"  style={{borderRadius:24}} data-aos="fade-left" />
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        </section>
+        </div>
+        <div className={styles.midabout}>
+        <section id="Header" className="d-flex align-items-center">
+        <div className="container-fluid">
+        <div className="row">
+            <div className="col-10 mx-5">
+            <div className="row">
+                <div className="col-md-6 pb-2 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" data-aos="fade-left">
+                <h1>
+                    OUR AIM
                 </h1>
                 <h5 style={{ inlineHeight: "0.5",color:"#fff" }}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
                 </h5>
                 </div>
-                <div id='img-abt' className="col-lg-6 order1 order-lg-2 header-img pt-4 py-5">
-                <Image src={Abhi} alt="" className="img-fluid animated"  style={{borderRadius:24}} data-aos="fade-left" />
+                <div id='img-abt' className="col-lg-6 order1 header-img pt-4 py-5" data-aos="fade-right" >
+                <Image src={Abhi} alt="" className="img-fluid animated"  style={{borderRadius:24}} />
                 </div>
             </div>
             </div>
@@ -125,7 +126,7 @@ function About() {
         <div className={styles.sep}></div>
         <p>Copyright ©2023 All rights reserved</p>
       </div>
-    </>
+    </div>
   )
 }
 

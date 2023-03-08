@@ -41,15 +41,15 @@
     padding: 1rem;
     border-radius: 5px;
     color: white;
-    background-color: blueviolet;
+    background-color: #151853;
     font-size: 1rem;
     font-weight: 700;
     transition: color .5s , background-color .5s;
 }
 
 .register_btn:hover,.register_btn:active{
-    background-color: #151853;
-    color: blueviolet;
+    background-color: blueviolet;
+    color: white;
 }
 
 .hero_heading_container h3{
@@ -484,6 +484,18 @@
     color: #111343;
 }
 
+.icons_container{
+    margin-bottom: 1rem;
+}
+
+.footer_grid_container input{
+    color: white;
+}
+
+.icons_container a{
+    margin-right: 1rem;
+}
+
 @media screen and (max-width:830px){
     .footer_left{
         padding-left: 1rem;
@@ -520,4 +532,16 @@
     height: 2px;
     border-bottom: 1px solid white;
     margin-bottom: 1rem;
+}
+
+.footer_img_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_img{
+    width: 10%;
+    height: auto;
+    padding-bottom: 1rem;
 }
