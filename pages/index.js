@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Navbar from '../Components/Navbar'
-import horizon from "../public/horizon.png"
-import desc_img from "../public/desc_img.avif"
+import horizon from "../public/horizon_logo.png"
+import desc_img from "../public/desc_img.jpg"
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
 
