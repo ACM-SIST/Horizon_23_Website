@@ -111,6 +111,18 @@
     color: #111343;
 }
 
+.icons_container{
+    margin-bottom: 1rem;
+}
+
+.footer_grid_container input{
+    color: white;
+}
+
+.icons_container a{
+    margin-right: 1rem;
+}
+
 @media screen and (max-width:830px){
     .footer_left{
         padding-left: 1rem;
@@ -147,4 +159,16 @@
     height: 2px;
     border-bottom: 1px solid white;
     margin-bottom: 1rem;
+}
+
+.footer_img_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_img{
+    width: 10%;
+    height: auto;
+    padding-bottom: 1rem;
 }

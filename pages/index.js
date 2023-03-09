@@ -192,7 +192,7 @@ let nontech=[{
           {/* <div className={styles.hero_heading_container}>
             <h3>MARCH 23 AND 24</h3>
           </div> */}
-          <button className={styles.register_btn}>REGISTER NOW</button>
+          <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>REGISTER NOW</a>
         </div>
       </div>
       <div className={styles.desc_container}>
@@ -265,7 +265,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -280,7 +280,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -295,7 +295,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -310,7 +310,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -325,7 +325,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -340,7 +340,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
           </div>
           <div className={toggle === 2 ? styles.active : styles.passive}>
@@ -357,7 +357,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -372,7 +372,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -387,7 +387,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -402,7 +402,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -417,7 +417,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -432,7 +432,7 @@ let nontech=[{
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <button className={styles.event_btn}>REGISTER</button>
+              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
             </div>
           </div>
         </div>
