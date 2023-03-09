@@ -1,8 +1,8 @@
 import styles from "../styles/footer.module.css"
 import { useForm } from "@formspree/react"
 import Image from "next/image"
-import linkedin from "../public/linkedin.png"
-import insta from "../public/insta.png"
+import linkedin from "../public/Linkedinlogo.png"
+import insta from "../public/Instagramlogo.png"
 import footer_sist from "../public/footer_sist.png"
 import acm_logo from "../public/acm_logo.png"
 import acmw_logo from "../public/acmw_logo.png"
@@ -24,7 +24,7 @@ function Footer() {
         <div className={styles.footer_container}>
           <div className={styles.footer_left}>
             <p className={styles.ques}>Connect with Us : </p>
-            <div className={styles.icons_container}><a href='https://www.linkedin.com/company/acm-sist-student-chapter/'><Image src={linkedin} alt="linkedin" width={30} height={30}/></a>
+            <div className={styles.icons_container}><a href='https://www.linkedin.com/company/acm-sist-student-chapter/'><Image src={linkedin} alt="linkedin" width={50} height={50}/></a>
             <a href='https://www.instagram.com/acmsist/?igshid=YmMyMTA2M2Y%3D'><Image src={insta} alt="insta" width={50} height={50}/></a>
             </div>
             <p className={styles.ques}>Phone :</p>
