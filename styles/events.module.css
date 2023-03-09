@@ -130,6 +130,11 @@ background: linear-gradient(135deg, rgba(127,17,251,1) 35%, rgba(49,125,215,1) 6
     cursor: pointer;
 }
 
+.register_btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
 .card_btn_container{
     display: flex;
     justify-content: space-around;
@@ -146,6 +151,13 @@ background: linear-gradient(135deg, rgba(127,17,251,1) 35%, rgba(49,125,215,1) 6
 
 .desc_container{
     width: 100%;
+}
+
+.register_btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:400px){

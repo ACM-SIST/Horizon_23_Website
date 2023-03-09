@@ -19,18 +19,18 @@ function Footer() {
   return (
     <div>
         <div className={styles.footer}>
-        <p className={styles.footer_heading}>HAVE QUESTION?</p>
+        <p className={styles.footer_heading}>HAVE A QUESTION?</p>
         <h1 className={styles.footer_contact_heading}>CONTACT US</h1>
         <div className={styles.footer_container}>
           <div className={styles.footer_left}>
-            <p className={styles.ques}>Links : </p>
+            <p className={styles.ques}>Connect with Us : </p>
             <div className={styles.icons_container}><a href='https://www.linkedin.com/company/acm-sist-student-chapter/'><Image src={linkedin} alt="linkedin" width={30} height={30}/></a>
-            <a href='https://www.instagram.com/acmsist/?igshid=YmMyMTA2M2Y%3D'><Image src={insta} alt="insta" width={30} height={30}/></a>
+            <a href='https://www.instagram.com/acmsist/?igshid=YmMyMTA2M2Y%3D'><Image src={insta} alt="insta" width={50} height={50}/></a>
             </div>
             <p className={styles.ques}>Phone :</p>
-            <h3>8790122286</h3>
-            <h3>7200366102</h3>
-            <h3>9176638894</h3>
+            <h3>+91 - 8790122286</h3>
+            <h3>+91 - 7200366102</h3>
+            <h3>+91 - 9176638894</h3>
             <p className={styles.ques}>Email :</p>
             <h3>acm.sathyabama@gmail.com</h3>
           </div>

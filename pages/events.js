@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 import styles from "../styles/events.module.css"
 import codefest from "../public/codefest.jpg"
-import brain_busters from "../public/brain_busters.jpg"
+import brain_busters from "../public/brain_busters.webp"
 import innovathon from "../public/innovathon.jpg"
 import css_battle from "../public/css_battle.png"
 import blind from "../public/blind.jpg"
@@ -13,7 +13,6 @@ import site from "../public/site.jpg"
 import mystery from "../public/mystery.jpg"
 import adzap from "../public/adzap.jpg"
 import laughf from "../public/laugh.png"
-import card from "../public/desc_img.jpg"
 import Image from "next/image"
 import { useState } from "react";
 
@@ -79,7 +78,6 @@ function Events() {
                       <p>Individual</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         settech1(!tech1)
                       }}>{tech1 ? "Read Less" : "Read More"}</a>
@@ -107,6 +105,7 @@ Participants are required to find the solution to the given coding problem.
                          Laptop is Mandatory<br/>
                          Participants MUST have a Hackerrank account for competing. We will inform you earlier about any further details / changes about the event.
                       </p>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -136,7 +135,6 @@ Participants are required to find the solution to the given coding problem.
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         settech2(!tech2)
                       }}>{tech2 ? "Read Less" : "Read More"}</a>
@@ -159,9 +157,10 @@ In this Round the difficulty level of the questions will be little high compare 
                         <li className={styles.list_item}><p>Maximum 2 members in a team</p></li>
                       </ul>
                       <p className={styles.ques}>Requirements :</p>
-                        <p>
-                        Laptop is Mandatory
-                        </p>
+                      <p>
+                      Laptop is Mandatory
+                      </p>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -172,7 +171,7 @@ In this Round the difficulty level of the questions will be little high compare 
                   <div className={styles.event_card_right}>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Title : </p>
-                      <p>BlindPresentation</p>
+                      <p>Blind Presentation</p>
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Date : </p>
@@ -191,7 +190,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         settech3(!tech3)
                       }}>{tech3 ? "Read Less" : "Read More"}</a>
@@ -215,6 +214,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         <p>
                         Laptop is Mandatory
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -245,7 +245,6 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         settech4(!tech4)
                       }}>{tech4 ? "Read Less" : "Read More"}</a>
@@ -271,6 +270,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         Laptop is Mandatory<br/>
                         Any hardware prototype (OPTIONAL)
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -301,7 +301,6 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Individual</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         settech5(!tech5)
                       }}>{tech5 ? "Read Less" : "Read More"}</a>
@@ -324,6 +323,7 @@ In this Round the difficulty level of the questions will be little high compare 
                           Laptop is Mandatory
                         </p>
                       </div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -353,7 +353,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         settech6(!tech6)
                       }}>{tech6 ? "Read Less" : "Read More"}</a>
@@ -377,6 +377,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         <p>
                         Laptop is Mandatory
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -409,7 +410,6 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Individual</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech1(!nontech1)
                       }}>{nontech1 ? "Read Less" : "Read More"}</a>
@@ -430,6 +430,7 @@ In this Round the difficulty level of the questions will be little high compare 
 </p></li>
                         <li className={styles.list_item}><p>Time duration 2min max</p></li>
                       </ul>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -459,7 +460,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech2(!nontech2)
                       }}>{nontech2 ? "Read Less" : "Read More"}</a>
@@ -487,6 +488,7 @@ Each team can have a size of 2 members
                         <p>
                           Phone or Camera for Recording
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -517,7 +519,7 @@ Each team can have a size of 2 members
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech3(!nontech3)
                       }}>{nontech3 ? "Read Less" : "Read More"}</a>
@@ -543,6 +545,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                         <p>
                           Stationary
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -573,7 +576,6 @@ Participant’s shouldn’t have any words with other teammates while the slides
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech4(!nontech4)
                       }}>{nontech4 ? "Read Less" : "Read More"}</a>
@@ -597,6 +599,7 @@ The team which solves the riddle first with the given clues will be moving to co
 The team who solves the clue last will be eliminated. 
 </p></li>
                       </ul>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -626,7 +629,7 @@ The team who solves the clue last will be eliminated.
                       <p>Individual</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech5(!nontech5)
                       }}>{nontech5 ? "Read Less" : "Read More"}</a>
@@ -653,6 +656,7 @@ The team who solves the clue last will be eliminated.
                         <p>
                         Properties like charts and sketches must be bringing on own.
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -683,7 +687,7 @@ The team who solves the clue last will be eliminated.
                       <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
-                      <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a>
+                      
                       <a className={styles.register_btn} onClick={()=>{
                         setnontech6(!nontech6)
                       }}>{nontech6 ? "Read Less" : "Read More"}</a>
@@ -706,6 +710,7 @@ The team who solves the clue last will be eliminated.
                         <p>
                         Would say a dank sense of humor is a requirement.
                         </p>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>

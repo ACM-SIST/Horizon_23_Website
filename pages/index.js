@@ -191,8 +191,10 @@ let nontech=[{
       <div className={styles.desc_container}>
         <div className={styles.desc_left}>
           <h4 className={styles.about}>ABOUT EVENT</h4>
-          <h1 className={styles.heading}>HORIZON 2023</h1>
-          <p className={styles.content}>The event aims to provide an opportunity for students to showcase their skills and knowledge, interact with peers and experts from the industry, and gain exposure to new trends and technologies. With exciting events such as coding challenges,hackathons,standup comedy and much more, the symposium promises to be an enriching experience for all participants.
+          <h1 className={styles.heading}>HORIZON&#180;23</h1>
+          <p className={styles.content}>Were you waiting for a symposium at Sathyabama? Here we are! 
+Horizon 2023 is an inter-department symposium conducted by the School of Computing in Association with ACM and ACM – W Student Chapters. We are proud to present 6 technical and 6 non-technical events to our students. Please refer to the list of events given right below. 
+
 </p>
         </div>
         <div className={styles.desc_right}>
@@ -201,9 +203,9 @@ let nontech=[{
       </div>
       <div className={styles.count_container}>
         <div className={styles.count_left}>
-          <h1 className={styles.count_about}>Event Date</h1>
-          <h3>MARK YOUR CALENDERS</h3>
-          <p>COUNT EVERY SECOND UNTIL THE EVENT</p>
+          <h2 className={styles.count_about}>Win exciting cash prizes + return gifts too!</h2>
+          <h3>SAVE THE DATE – 23rd and 24th March 2023</h3>
+          <p>See you all at the venue! </p>
         </div>
         <div className={styles.count_right}>
           <div className={styles.count_box}>
@@ -309,7 +311,7 @@ let nontech=[{
             <div className={styles.event_card}>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Event :</p>
-                <p className={styles.event_content}>BlindPresentation</p>
+                <p className={styles.event_content}>Blind Presentation</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
