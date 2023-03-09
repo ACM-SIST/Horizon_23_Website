@@ -459,6 +459,17 @@
     background-color: transparent;
     border-bottom: 1px solid white;
     padding: .5rem;
+    color: white;
+    width: 100%;
+}
+
+.footer_grid_container textarea{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding: .5rem;
+    color: white;
     width: 100%;
 }
 

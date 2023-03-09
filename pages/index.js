@@ -178,9 +178,8 @@ let nontech=[{
   })
 
   function Submit(){
-    if(state.succeeded){
-      window.location.reload()
-    }
+    window.alert("submitted")
+    window.location.reload();
   }
 
   return (
