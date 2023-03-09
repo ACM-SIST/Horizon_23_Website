@@ -1,13 +1,8 @@
 import Image from 'next/image'
-import { useForm } from '@formspree/react';
 import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer';
 import horizon from "../public/horizon_logo.png"
-import linkedin from "../public/linkedin.png"
-import insta from "../public/insta.png"
-import footer_sist from "../public/footer_sist.png"
-import acm_logo from "../public/acm_logo.png"
-import acmw_logo from "../public/acmw_logo.png"
-import desc_img from "../public/desc_img.jpg"
+import sist_clg from "../public/sist_clg.jpeg"
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
 
@@ -139,13 +134,10 @@ let nontech=[{
 }
 ]
   const [toggle,setToggle] = useState(1);
-  const [list,setlist]=useState(tech)
   const [timerdays,settimerdays] = useState(0);
   const [timerhours,settimerhours] = useState(0);
   const [timerminutes,settimerminutes] = useState(0);
   const [timerseconds,settimerseconds] = useState(0);
-
-  const [state, handleSubmit] = useForm("mzbqvpjb");
 
   const toggledate = (id) => {
     setToggle(id);
@@ -178,8 +170,10 @@ let nontech=[{
   })
 
   function Submit(){
-    window.alert("submitted")
+    if(state.succeeded){
+      window.alert("submitted")
     window.location.reload();
+    }
   }
 
   return (
@@ -198,10 +192,11 @@ let nontech=[{
         <div className={styles.desc_left}>
           <h4 className={styles.about}>ABOUT EVENT</h4>
           <h1 className={styles.heading}>HORIZON 2023</h1>
-          <p className={styles.content}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          <p className={styles.content}>The event aims to provide an opportunity for students to showcase their skills and knowledge, interact with peers and experts from the industry, and gain exposure to new trends and technologies. With exciting events such as coding challenges,hackathons,standup comedy and much more, the symposium promises to be an enriching experience for all participants.
+</p>
         </div>
         <div className={styles.desc_right}>
-          <Image className={styles.desc_img} src={desc_img} alt="horizon"/>
+          <Image className={styles.desc_img} src={sist_clg} alt="horizon"/>
         </div>
       </div>
       <div className={styles.count_container}>
@@ -436,43 +431,7 @@ let nontech=[{
           </div>
         </div>
       </div>
-      <div className={styles.footer}>
-        <p className={styles.footer_heading}>HAVE QUESTION?</p>
-        <h1 className={styles.footer_contact_heading}>CONTACT US</h1>
-        <div className={styles.footer_container}>
-          <div className={styles.footer_left}>
-            <p className={styles.ques}>Links : </p>
-            <div className={styles.icons_container}><a href='https://www.linkedin.com/company/acm-sist-student-chapter/'><Image src={linkedin} alt="linkedin" width={30} height={30}/></a>
-            <a href='https://www.instagram.com/acmsist/?igshid=YmMyMTA2M2Y%3D'><Image src={insta} alt="insta" width={30} height={30}/></a>
-            </div>
-            <p className={styles.ques}>Phone :</p>
-            <h3>(226) 446 9371</h3>
-            <p className={styles.ques}>Email :</p>
-            <h3>confer@gmail.com</h3>
-          </div>
-          <div className={styles.footer_right}>
-            <form autoComplete='off' onSubmit={handleSubmit} className={styles.footer_grid_container}>
-              <input type="text
-              " name="first name" id='first_name' placeholder='First Name'/>
-              <input type="text" id="last_name" name="last name" placeholder='Last Name'/>
-              <input type="text" 
-        name="email" id='email' placeholder='Email'/>
-              <input type="text" id='phone' name='phone no' placeholder='Phone Number'/>
-              <textarea id='msg' placeholder='YOUR MESSAGE' name='message' className={styles.footer_text}></textarea>
-              <button onClick={Submit} type="submit" className={styles.submit}>SUBMIT</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div className={styles.copyright_container}>
-        <div className={styles.footer_img_container}>
-          <Image className={styles.footer_img} width={100} height={80} src={footer_sist} alt="sist_logo"/>
-          <Image className={styles.footer_img} src={acm_logo} alt="acm logo"/>
-          <Image className={styles.footer_img} src={acmw_logo} alt="acmw logo"/>
-        </div>
-        <div className={styles.sep}></div>
-        <p>Copyright ©2023 Association for Computing Machinery (ACM) SIST All rights reserved</p>
-      </div>
+      <Footer />
     </>
   )
 }

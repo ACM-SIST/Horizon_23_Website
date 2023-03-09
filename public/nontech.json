@@ -22,8 +22,7 @@
 
     "nt-event3" : {
         "heading": "Sight on Site",
-        "description": "Here  sight on site weighs on the saying When it comes to recall, it’s very much a case of ‘use it, don’t lose it’.
-sight on site in a memory quiz game, it’s played in teams , there would be slides in each round which consist of photos and videos, after each round questions would be asked and the result depends on the number of questions u answered correct. In the end of the game winners would be getting some exiting goodies. Play your way as you unravel the secrets in the slides.",
+        "description": "Here  sight on site weighs on the saying When it comes to recall,it’s very much a case of ‘use it, don’t lose it’.sight on site in a memory quiz game, it’s played in teams , there would be slides in each round which consist of photos and videos, after each round questions would be asked and the result depends on the number of questions u answered correct. In the end of the game winners would be getting some exiting goodies. Play your way as you unravel the secrets in the slides.",
         "type":"Team",
         "date":"24/03/2023",
         "time":"1:30 PM - 3:00 PM",
@@ -43,8 +42,7 @@ sight on site in a memory quiz game, it’s played in teams , there would be sli
 
     "nt-event5" : {
         "heading": "Adzap",
-        "description": "It’s a Competition where students had to prepare different creative advertisements for their given topics on Spot.
-The teams were given their topic 30 minutes in advance .",
+        "description": "It’s a Competition where students had to prepare different creativeadvertisements for their given topics on Spot.The teams were given their topic 30 minutes in advance.",
         "type":"Individual",
         "date":"25/03/2023",
         "time":"12:00 PM - 1:30 PM",
@@ -54,14 +52,11 @@ The teams were given their topic 30 minutes in advance .",
 
     "nt-event6" : {
         "heading": "Laugh Out",
-        "description": "In this event we have to make everyone laugh with the sarcasm inside ourselves. It’s all about the laugh we make on everyone's face and make them happy.
-Our jokes should be the stress killer for everyone sitting down there.
-The way they will make audience happy will decide the winner.",
+        "description": "In this event we have to make everyone laugh with the sarcasm insideourselves. It’s all about the laugh we make on everyone's face and make themhappy.Our jokes should be the stress killer for everyone sitting down there.The way they will make audience happy will decide the winner.",
         "type":"Team",
         "date":"25/03/2023",
         "time":"1:30 PM - 3:00 PM",
         "venue":"dummylocation",
         "image":"xyz"
-    },
-
+    }
 }
