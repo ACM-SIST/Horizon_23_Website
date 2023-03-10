@@ -418,7 +418,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        It’s an Individual event where the participant can showcase their talent within a minute. .
+                        It’s an Individual event where the participant can showcase their talent within a minute.
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
