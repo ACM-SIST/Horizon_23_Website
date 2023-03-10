@@ -13,6 +13,7 @@ import site from "../public/site.jpg"
 import mystery from "../public/mystery.jpg"
 import adzap from "../public/adzap.jpg"
 import laughf from "../public/laugh.png"
+import location from "../public/location.png"
 import Image from "next/image"
 import { useState } from "react";
 
@@ -70,12 +71,12 @@ function Events() {
                       <p>11:00 - 13:00</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Individual</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 1</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -127,12 +128,12 @@ Participants are required to find the solution to the given coding problem.
                       <p>12:00 - 14:00</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 2</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -182,12 +183,12 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>13:00 - 15:00</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 1</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
@@ -236,13 +237,14 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p className={styles.ques}>Time : </p>
                       <p>09:30 - 11:30</p>
                     </div>
-                    <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
+                    
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Remibai Auditorium</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -293,12 +295,12 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>10:30 - 12:30</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Individual</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 2</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -345,12 +347,12 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>11:30 - 13:30</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 1</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
@@ -402,12 +404,12 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>11:00 - 13:00</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Individual</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Lecture Hall 2</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -451,13 +453,14 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p className={styles.ques}>Time : </p>
                       <p>12:00 - 14:00</p>
                     </div>
-                    <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
+                    
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Remibai Auditorium</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
@@ -510,13 +513,14 @@ Each team can have a size of 2 members
                       <p className={styles.ques}>Time : </p>
                       <p>13:00 - 15:00</p>
                     </div>
-                    <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
+                   
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Lecture Hall 2</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
@@ -567,13 +571,14 @@ Participant’s shouldn’t have any words with other teammates while the slides
                       <p className={styles.ques}>Time : </p>
                       <p>09:30 - 11:30</p>
                     </div>
-                    <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
+                   
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>individual</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Smart ClassRoom 1</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -620,13 +625,14 @@ The way they will make audience happy will decide the winner.
                       <p className={styles.ques}>Time : </p>
                       <p>10:30 - 12:30</p>
                     </div>
-                    <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
+                    
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Lecture Hall 2</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
@@ -681,12 +687,12 @@ The way they will make audience happy will decide the winner.
                       <p>11:00 - 13:30</p>
                     </div>
                     <div className={styles.event_info}>
-                      <p className={styles.ques}>Venue : </p>
-                      <p>Sathyabama</p>
-                    </div>
-                    <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
                       <p>Team</p>
+                    </div>
+                    <div className={styles.event_venue_info}>
+                      <Image className={styles.location} src={location} alt="location"/>
+                      <p>Remibai Auditorium</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{

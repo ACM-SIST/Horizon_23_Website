@@ -256,7 +256,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>10:00 - 11:30</p>
+                <p>11:00 - 13:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -271,7 +271,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>10:00 - 11:30</p>
+                <p>11:00 - 13:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -286,7 +286,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>12:00 - 13:30</p>
+                <p>12:00 - 14:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -301,7 +301,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>12:00 - 13:30</p>
+                <p>12:00 - 14:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -316,7 +316,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>13:30 - 15:00</p>
+                <p>13:00 - 15:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -331,7 +331,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>13:30 - 15:00</p>
+                <p>13:00 - 15:00</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -348,7 +348,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>10:00 - 11:30</p>
+                <p>09:30 - 11:30</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -359,11 +359,11 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
             <div className={styles.event_card}>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Event :</p>
-                <p className={styles.event_content}>Murder Mystery</p>
+                <p className={styles.event_content}>Laugh Out</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>10:00 - 11:30</p>
+                <p>09:30 - 11:30</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -378,7 +378,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>12:00 - 13:30</p>
+                <p>10:30 - 12:30</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -393,7 +393,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>12:00 - 13:30</p>
+                <p>10:30 - 12:30</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -408,7 +408,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
-                <p>13:30 - 15:00</p>
+                <p>11:30 - 13:30</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
@@ -419,7 +419,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
             <div className={styles.event_card}>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Event :</p>
-                <p className={styles.event_content}>Laugh Out</p>
+                <p className={styles.event_content}>Murder Mystery</p>
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Time :</p>
