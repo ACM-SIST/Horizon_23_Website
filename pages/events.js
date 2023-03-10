@@ -684,7 +684,7 @@ The way they will make audience happy will decide the winner.
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Time : </p>
-                      <p>11:00 - 13:30</p>
+                      <p>11:30 - 13:30</p>
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
