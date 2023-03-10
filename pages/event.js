@@ -47,7 +47,7 @@ function Event() {
             className={styles.EventType}
             onClick={openTech}
           >
-            Technical
+            TECHNICAL
           </p>
           <p
             style={{
@@ -58,7 +58,7 @@ function Event() {
             className={styles.EventType}
             onClick={openNTech}
           >
-            Non-Technical
+            NON-TECHNICAL
           </p>
         </div>
       </div>

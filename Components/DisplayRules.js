@@ -29,7 +29,7 @@ export default function DisplayRules(props) {
               event.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -58,7 +58,7 @@ export default function DisplayRules(props) {
               <b>2.</b> Any hardware prototype (OPTIONAL)
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -80,7 +80,7 @@ export default function DisplayRules(props) {
               <b>1.</b> Laptop is mandatory.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -105,7 +105,7 @@ export default function DisplayRules(props) {
               <b>1.</b> Participants are requested to get their own laptops.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -129,7 +129,7 @@ export default function DisplayRules(props) {
               <b>1.</b> Laptop is mandatory.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -153,7 +153,7 @@ export default function DisplayRules(props) {
               <b>1.</b> Laptop is mandatory.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -182,7 +182,7 @@ for their given product.
               <b>BEST SALESMAN </b> will be awarded.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -216,7 +216,7 @@ students in any way.
               <b>1. </b> A phone/camera for shooting.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -250,7 +250,7 @@ students in any way.
               <b>1. </b> Stationary.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -284,7 +284,7 @@ students in any way.
               <b>1. </b> Would say a dank sense of humor is a requirement.
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -324,7 +324,7 @@ students in any way. */}
 
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>
@@ -362,7 +362,7 @@ murderer first will win exciting prizes.
 
             </p>
             <div className={styles.RulesButton}>
-              <button>REGISTER</button>
+              <button className={styles.register_btn}>REGISTER</button>
             </div>
           </div>
         </>

@@ -5,6 +5,8 @@ import "swiper/swiper.min.css";
 // import "swiper/components/navigation/navigation.min.css";
 
 import styles from "../styles/event.module.css"
+import Image from "next/image";
+import codefest from "../public/codefest.jpg"
 
 
 import SwiperCore, {
@@ -135,16 +137,16 @@ export default function App(props){
         <SwiperSlide>
         <div class={styles.CardContainer}>
               <div class={styles.CardImage}>
-                <img src="https://static.vecteezy.com/system/resources/previews/004/272/479/non_2x/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-matrix-background-with-digits-1-0-illustration-vector.jpg" alt="codefest" />
+                <Image src={codefest} alt="codefest" />
               </div>
               <div className={styles.CardContent}>
                 <div className={styles.CardHead}>
-                  <h1>Code-Fest</h1>
+                  <h1>CodeFest</h1>
                 </div>
                 <div className={styles.CardEventDetails}>
                   <p>
                     <BsCalendar2Date />
-                    &nbsp;&nbsp; 10:00 AM, 24th March, 2023
+                    &nbsp;&nbsp; 11:00 AM, 23th March, 2023
                   </p>
                   <p>
                     <MdLocationPin />
@@ -158,9 +160,7 @@ export default function App(props){
                 <div className={styles.CardDescription}>
                   <h3> About</h3>
                   <p>
-                    This is an individual event which involves the participants
-                    in trying to code/program according to the given
-                    specifications.
+                  Here comes an another Technical Event , It is an individual event which involves the participants in trying to code/program according to the given specifications. The participant must be able to solve the problems in a given set of time. This competition will test a participant’s coding and debugging skills and their knowledge in programming languages.
                   </p>
                 </div>
                 <div className={styles.CardButton}>
