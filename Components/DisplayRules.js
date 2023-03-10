@@ -29,7 +29,7 @@ export default function DisplayRules(props) {
               event.
             </p>
             <div className={styles.RulesButton}>
-              <button className={styles.register_btn}>REGISTER</button>
+              <button>REGISTER</button>
             </div>
           </div>
         </>

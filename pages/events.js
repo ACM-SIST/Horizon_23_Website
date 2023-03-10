@@ -638,7 +638,7 @@ The way they will make audience happy will decide the winner.
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        It’s a Competition where students had to prepare different creativeadvertisements for their given topics on Spot.The teams were given their topic 30 minutes in advance.
+                        Teams are asked to prepare creative advertisements for the topics given to them. Participants can demonstrate their immense creativity and out-of-the-box thinking skills by coming up with different ideas.
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
@@ -650,11 +650,13 @@ The way they will make audience happy will decide the winner.
 </p></li>
 <li className={styles.list_item}><p>Team size only 2  members
 </p></li>
+<li className={styles.list_item}><p>Best SALESMAN will be awarded
+</p></li>
                       </ul>
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Requirements :</p>
                         <p>
-                        Properties like charts and sketches must be bringing on own.
+                        None
                         </p>
                         <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>

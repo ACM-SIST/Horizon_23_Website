@@ -66,15 +66,11 @@
 
 
 .CardContainer {
-  width: 100%;
   border-radius: 30px;
   /* box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px; */
   height: auto;
   /* background-color: rgb(185, 208, 245); */
   background-color: #E4FBFF;
-}
-.CardContainer p{
-  word-break: break-all;
 }
 .CardImage {
   height: 200px;
@@ -89,7 +85,7 @@
   border-top-right-radius: 30px;
 }
 .CardContent {
-  padding: 1.6rem;
+  padding: 1rem;
   padding-top: 5px;
   /* margin-bottom: 15px; */
   height: auto;
@@ -117,6 +113,7 @@
   margin-bottom: 0px;
 }
 .CardDescription p {
+  word-break: break-all;
   text-align: justify;
   margin-top: 0px;
 }
@@ -188,9 +185,6 @@
   cursor: pointer;
 }
 
-.register_btn:hover{
-  background-color: blueviolet;
-}
 
 
 
@@ -313,4 +307,8 @@
   width: 25px;
   height: 5px;
   border-radius: 5px;
+}
+
+.first_class{
+  background-color: #111143;
 }
