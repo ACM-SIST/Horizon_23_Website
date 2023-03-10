@@ -552,12 +552,12 @@ Participant’s shouldn’t have any words with other teammates while the slides
                 </div>
                 <div className={styles.event_card}>
                   <div className={styles.event_card_left}>
-                    <Image className={styles.event_img} src={mystery} alt="card"/>
+                    <Image className={styles.event_img} src={laughf} alt="card"/>
                   </div>
                   <div className={styles.event_card_right}>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Title : </p>
-                      <p>Murder Mystery</p>
+                      <p>Laugh Out</p>
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Date : </p>
@@ -565,7 +565,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Time : </p>
-                      <p>11:00 - 13:30</p>
+                      <p>09:30 - 11:30</p>
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Venue : </p>
@@ -573,7 +573,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
-                      <p>Team</p>
+                      <p>individual</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       <a className={styles.register_btn} onClick={()=>{
@@ -584,19 +584,19 @@ Participant’s shouldn’t have any words with other teammates while the slides
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        It’s a game event where the clues will be given and the teams have to solve the clues and keep moving to the next level. The first team to solve all the clue’s will be the final winner
+                        In this event we have to make everyone laugh with the sarcasm inside ourselves. It’s all about the laugh we make on everyones face and make them happy.
+Our jokes should be the stress killer for everyone sitting down there.
+The way they will make audience happy will decide the winner.
+
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
                       <ul>
-                        <li className={styles.list_item}><p>Each team can have a size of 2 members
-Totally 8 rounds will be there
+                        <li className={styles.list_item}><p>Time limit is 4 to 5 min . If the content is good the time will be extend . 
 </p></li>
-                        <li className={styles.list_item}><p>Solving each clue will get you to the next round
-The team which solves the riddle first with the given clues will be moving to consecutive rounds .
+                        <li className={styles.list_item}><p>No participants should use controversial statements / no comments on religion . 
 </p></li>
-                        <li className={styles.list_item}><p>The team that solves the riddles fast and finds the murderer first will win exciting prizes.
-The team who solves the clue last will be eliminated. 
+                        <li className={styles.list_item}><p>No hate speech against any community/racial slurs.
 </p></li>
                       </ul>
                       <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
@@ -626,7 +626,7 @@ The team who solves the clue last will be eliminated.
                     </div>
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
-                      <p>Individual</p>
+                      <p>Team</p>
                     </div>
                     <div className={styles.card_btn_container}>
                       
