@@ -418,7 +418,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        It involves the participants trying to code/program according to the given specifications. The participant must be able to solve the problems in a given set of time.This competition will test a participants coding and debugging skills and their knowledge in programming languages.
+                        It’s an Individual event where the participant can showcase their talent within a minute. .
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
