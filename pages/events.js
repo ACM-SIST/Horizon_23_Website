@@ -105,7 +105,7 @@ Participants are required to find the solution to the given coding problem.
                          Laptop is Mandatory<br/>
                          Participants MUST have a Hackerrank account for competing. We will inform you earlier about any further details / changes about the event.
                       </p>
-                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ In this Round the difficulty level of the questions will be little high compare 
                       <p>
                       Laptop is Mandatory
                       </p>
-                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         <p>
                         Laptop is Mandatory
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -270,7 +270,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         Laptop is Mandatory<br/>
                         Any hardware prototype (OPTIONAL)
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -323,7 +323,7 @@ In this Round the difficulty level of the questions will be little high compare 
                           Laptop is Mandatory
                         </p>
                       </div>
-                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -377,7 +377,7 @@ In this Round the difficulty level of the questions will be little high compare 
                         <p>
                         Laptop is Mandatory
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -430,7 +430,7 @@ In this Round the difficulty level of the questions will be little high compare 
 </p></li>
                         <li className={styles.list_item}><p>Time duration 2min max</p></li>
                       </ul>
-                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -488,7 +488,7 @@ Each team can have a size of 2 members
                         <p>
                           Phone or Camera for Recording
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -545,7 +545,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                         <p>
                           Stationary
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -599,7 +599,7 @@ The team which solves the riddle first with the given clues will be moving to co
 The team who solves the clue last will be eliminated. 
 </p></li>
                       </ul>
-                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                      <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
                   </div>
                 </div>
@@ -656,7 +656,7 @@ The team who solves the clue last will be eliminated.
                         <p>
                         Properties like charts and sketches must be bringing on own.
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>
@@ -710,7 +710,7 @@ The team who solves the clue last will be eliminated.
                         <p>
                         Would say a dank sense of humor is a requirement.
                         </p>
-                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>Register</a></div>
+                        <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                       </div>
                     </div>
                   </div>

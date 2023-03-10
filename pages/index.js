@@ -5,6 +5,7 @@ import horizon from "../public/horizon_logo.png"
 import sist_clg from "../public/sist_clg.jpeg"
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
+import Link from 'next/link';
 
 function Index() {
   let tech=[{
@@ -185,7 +186,7 @@ let nontech=[{
           {/* <div className={styles.hero_heading_container}>
             <h3>MARCH 23 AND 24</h3>
           </div> */}
-          <a href='http://bit.ly/acmhorizon23' className={styles.register_btn}>REGISTER NOW</a>
+          <Link href='/events' className={styles.register_btn}>REGISTER NOW</Link>
         </div>
       </div>
       <div className={styles.desc_container}>
@@ -261,7 +262,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -276,7 +277,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -291,7 +292,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -306,7 +307,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -321,7 +322,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -336,7 +337,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
           </div>
           <div className={toggle === 2 ? styles.active : styles.passive}>
@@ -353,7 +354,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -368,7 +369,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -383,7 +384,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -398,7 +399,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Individual</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -413,7 +414,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
             <div className={styles.event_card}>
               <div className={styles.event_info}>
@@ -428,7 +429,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
                 <p className={styles.ques}>Type :</p>
                 <p>Team</p>
               </div>
-              <a href='http://bit.ly/acmhorizon23' className={styles.event_btn}>REGISTER</a>
+              <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>
           </div>
         </div>
