@@ -95,7 +95,7 @@ function Events() {
                         <li className={styles.list_item}><p>Round 1: Guess the output
 Each question will have a timer and it should be answered within the time span
 </p></li>
-                        <li className={styles.list_item}><p>Round 2: Competitive Coding
+                        <li className={styles.list_item}><p>Round 2: Coding Contest
 Will be conducted in Hackerrank.
 Participants are required to find the solution to the given coding problem.
 </p></li>
@@ -484,6 +484,8 @@ In this Round the difficulty level of the questions will be little high compare 
 </p></li>
                         <li className={styles.list_item}><p>The shooting must not interfere with classes, faculty, or students in any way.
 Each team can have a size of 2 members
+</p></li>
+<li className={styles.list_item}><p>The final video must be submitted by March 21, 11:59 p.m. Submission details will be mailed to the participants after successful registration.
 </p></li>
                       </ul>
                       <div className={styles.desc_container}>
