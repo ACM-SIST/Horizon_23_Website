@@ -87,24 +87,21 @@ function Events() {
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        It involves the participants trying to code/program according to the given specifications. The participant must be able to solve the problems in a given set of time.This competition will test a participants coding and debugging skills and their knowledge in programming languages.
+                        It involves the participants trying to solve a coding problem according to the given specifications. The participant must be able to solve the problems in a given set of time.
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
                       <ul>
-                        <li className={styles.list_item}><p>Round 1: Guess the output
-Each question will have a timer and it should be answered within the time span
+                        <li className={styles.list_item}><p>Round 1: Each question will have a timer and it should be answered within the time span. Questions will be related to general Computer Science topics and finding the output of small code snippets.
 </p></li>
-                        <li className={styles.list_item}><p>Round 2: Coding Contest
-Will be conducted in Hackerrank.
-Participants are required to find the solution to the given coding problem.
+                        <li className={styles.list_item}><p>Round 2: Coding Contest Will be conducted in Hackerrank. Participants are required to find the solution to the given problem.
 </p></li>
                         <li className={styles.list_item}><p>Participants are NOT allowed to browse the internet. If found, the participant will be DISQUALIFIED.</p></li>
                       </ul>
                       <p className={styles.ques}>Requirements :</p>
                       <p>
                          Laptop is Mandatory<br/>
-                         Participants MUST have a Hackerrank account for competing. We will inform you earlier about any further details / changes about the event.
+Participants MUST have a Hackerrank and Kahoot account for competing. We will inform you earlier about any further details / changes about the event.
                       </p>
                       <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
                     </div>
