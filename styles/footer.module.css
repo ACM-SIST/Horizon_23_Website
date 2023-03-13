@@ -160,6 +160,12 @@
     align-items: center;
 }
 
+.footer_sist{
+    width: 20%;
+    height: 20%;
+    padding-bottom: 1rem;
+}
+
 .footer_img{
     width: 10%;
     height: auto;

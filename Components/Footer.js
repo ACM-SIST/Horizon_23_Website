@@ -6,6 +6,7 @@ import insta from "../public/Instagramlogo.png"
 import footer_sist from "../public/footer_sist.png"
 import acm_logo from "../public/acm_logo.png"
 import acmw_logo from "../public/acmw_logo.png"
+import sist_test from "../public/sist_test.png"
 
 function Footer() {
     const [state,handleSubmit] = useForm("mzbqvpjb")
@@ -50,7 +51,7 @@ function Footer() {
       </div>
       <div className={styles.copyright_container}>
         <div className={styles.footer_img_container}>
-          <Image className={styles.footer_img} width={100} height={80} src={footer_sist} alt="sist_logo"/>
+          <Image className={styles.footer_sist} width={100} height={80} src={sist_test} alt="sist_logo"/>
           <Image className={styles.footer_img} src={acm_logo} alt="acm logo"/>
           <Image className={styles.footer_img} src={acmw_logo} alt="acmw logo"/>
         </div>
