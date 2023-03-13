@@ -320,7 +320,7 @@ Horizon 2023 is an inter-department symposium conducted by the School of Computi
               </div>
               <div className={styles.event_info}>
                 <p className={styles.ques}>Type :</p>
-                <p>Individual</p>
+                <p>Team</p>
               </div>
               <Link href='/events' className={styles.event_btn}>REGISTER</Link>
             </div>

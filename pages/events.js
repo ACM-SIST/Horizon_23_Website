@@ -424,8 +424,13 @@ In this Round the difficulty level of the questions will be little high compare 
                       <ul>
                         <li className={styles.list_item}><p>You should showcase your skill within the time limit. If the skill requires any material then it has to be taken care of by the individual itself. 
 </p></li>
+<li className={styles.list_item}><p> If the skill requires any material then it has to be taken care of by the individual itself. 
+</p></li>
                         <li className={styles.list_item}><p>Any type of vulgar events are  
         not encouraged. 
+</p></li>
+<li className={styles.list_item}><p>Showcase of unique talent        
+     expected. 
 </p></li>
                         <li className={styles.list_item}><p>Time duration 2min max</p></li>
                       </ul>
