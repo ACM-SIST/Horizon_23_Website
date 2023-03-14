@@ -578,7 +578,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                    
                     <div className={styles.event_info}>
                       <p className={styles.ques}>Type : </p>
-                      <p>individual</p>
+                      <p>Team</p>
                     </div>
                     <div className={styles.event_venue_info}>
                       <Image className={styles.location} src={location} alt="location"/>
@@ -593,19 +593,18 @@ Participant’s shouldn’t have any words with other teammates while the slides
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        In this event we have to make everyone laugh with the sarcasm inside ourselves. It’s all about the laugh we make on everyones face and make them happy.
-Our jokes should be the stress killer for everyone sitting down there.
-The way they will make audience happy will decide the winner.
-
+                        Get ready for a day full of fun and excitement with Ping-Pong Ball and Balloon Games event! Join us as we unleash our creativity and competitive spirit with a series of games using these two classic party staples. Whether you're a seasoned player or a newbie, there's something for everyone to enjoy. Expect laughter, thrills, and friendly competition as we bring these simple items to life. Don't miss out on this opportunity to bond with friends, meet new people, and have a blast!
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
                       <ul>
-                        <li className={styles.list_item}><p>Time limit is 4 to 5 min . If the content is good the time will be extend . 
+                        <li className={styles.list_item}><p>This Event comprises of a Total 5 games.
 </p></li>
-                        <li className={styles.list_item}><p>No participants should use controversial statements / no comments on religion . 
+<li className={styles.list_item}><p>The Maximum Team Size is 2 Members.
 </p></li>
-                        <li className={styles.list_item}><p>No hate speech against any community/racial slurs.
+                        <li className={styles.list_item}><p>Teams will be performing in multiple games and elimination depends on their scores. 
+</p></li>
+                        <li className={styles.list_item}><p>Each game has a stipulated time and teams are expected to complete the game in-time.
 </p></li>
                       </ul>
                       <div className={styles.register_btn_container}><a href='http://bit.ly/acmhorizon2023' className={styles.register_btn}>Register</a></div>
