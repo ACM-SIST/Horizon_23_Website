@@ -12,7 +12,7 @@ import reels from "../public/reels.jpg"
 import site from "../public/site.jpg"
 import mystery from "../public/mystery.jpg"
 import adzap from "../public/adzap.jpg"
-import laughf from "../public/laugh.png"
+import laugh from "../public/laugh.png"
 import location from "../public/location.png"
 import Image from "next/image"
 import { useState } from "react";
@@ -560,7 +560,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                 </div>
                 <div className={styles.event_card}>
                   <div className={styles.event_card_left}>
-                    <Image className={styles.event_img} src={laughf} alt="card"/>
+                    <Image className={styles.event_img} src={laugh} alt="card"/>
                   </div>
                   <div className={styles.event_card_right}>
                     <div className={styles.event_info}>
