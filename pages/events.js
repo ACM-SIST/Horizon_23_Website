@@ -593,7 +593,7 @@ Participant’s shouldn’t have any words with other teammates while the slides
                       <div className={styles.desc_container}>
                         <p className={styles.ques}>Desc :</p>
                         <p>
-                        Get ready for a day full of fun and excitement with Ping-Pong Ball and Balloon Games event! Join us as we unleash our creativity and competitive spirit with a series of games using these two classic party staples. Whether you're a seasoned player or a newbie, there's something for everyone to enjoy. Expect laughter, thrills, and friendly competition as we bring these simple items to life. Don't miss out on this opportunity to bond with friends, meet new people, and have a blast!
+                        Get ready for a day full of fun and excitement with Ping-Pong Ball and Balloon Games event. Join us as we unleash our creativity and competitive spirit with a series of games using these two classic party staples. Whether youre a seasoned player or a newbie, there is  something for everyone to enjoy. Expect laughter, thrills, and friendly competition as we bring these simple items to life. Do not miss out on this opportunity to bond with friends, meet new people, and have a blast
                         </p>
                       </div>
                       <p className={styles.ques}> Rules :</p>
